@@ -1,0 +1,12 @@
+
+terraform plan \
+  -var 'client_id=4ade1fe1-a8bc-4bf5-8f14-3d0ac55a887a' \
+  -var 'client_secret=684be60f-0ccf-42d7-a078-a504ab2a2ed7'
+
+terraform apply \
+  -var 'client_id=4ade1fe1-a8bc-4bf5-8f14-3d0ac55a887a' \
+  -var 'client_secret=684be60f-0ccf-42d7-a078-a504ab2a2ed7'
+
+terraform destroy \
+  -var 'client_id=4ade1fe1-a8bc-4bf5-8f14-3d0ac55a887a' \
+  -var 'client_secret=684be60f-0ccf-42d7-a078-a504ab2a2ed7'
